@@ -1,5 +1,5 @@
 import Layout from '@/components/Layout'
-import { CaretDownIcon, CaretUpIcon, MinusIcon, PiggyBank, PlusIcon } from '@/icons/Icons'
+import { CaretUpIcon, MinusIcon, PiggyBank, PlusIcon } from '@/icons/Icons'
 import { useEffect, useState } from 'react'
 
 const TRANSACTIONS = [
@@ -240,8 +240,6 @@ function Location({ latitude, longitude }) {
     </div>
   )
 }
-
-
 
 function Dashboard() {
   const [location, setLocation] = useState(null)
